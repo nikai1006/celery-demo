@@ -13,5 +13,10 @@ pip install eventlet
 celery -A <mymodule> worker -l info -P eventlet
 ```
 
+#### 执行任务调度
+```bash
+celery beat  -A celery_demo -l INFO
+```
+
 #### 参考文献
 - [Celery ValueError: not enough values to unpack (expected 3, got 0)的解决方案](https://blog.csdn.net/qq_30242609/article/details/79047660)
