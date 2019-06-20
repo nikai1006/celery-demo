@@ -1,1 +1,3 @@
-celery
+redis
+eventlet
+celery==4.3
