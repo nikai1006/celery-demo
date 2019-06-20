@@ -11,7 +11,7 @@ CELERY_IMPORTS = (
     'celery_demo.task2',
 )
 
-
+# 调度配置
 CELERYBEAT_SCHEDULE = {
     'task1': {
         'task': 'celery_demo.task1.add',
